@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta name="theme-color" content="#080808">
+
+  <title>Donas frías en la oscuridad</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <main class="page">
+
+    <header class="header">
+      <div class="donut-mark">◉</div>
+
+      <h1 id="siteTitle">
+        Donas frías en la oscuridad
+      </h1>
+
+      <div id="progressText" class="progress-text"></div>
+    </header>
+
+
+    <section
+      id="gameArea"
+      class="game-area"
+      aria-live="polite"
+    ></section>
+
+
+    <section
+      id="unlockedArea"
+      class="unlocked-area"
+    ></section>
+
+
+    <button
+      id="resetButton"
+      class="reset-button"
+      type="button"
+      title="Reiniciar progreso"
+    >
+      ↺
+    </button>
+
+  </main>
+
+
+  <div
+    id="toast"
+    class="toast"
+    aria-live="polite"
+  ></div>
+
+
+  <script src="./script.js?v=1"></script>
+
+</body>
+</html>
