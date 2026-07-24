@@ -1,0 +1,78 @@
+content:
+  - name: site
+    label: Donas frías en la oscuridad
+    type: file
+    path: content/site.json
+    format: json
+
+    fields:
+
+      - name: siteTitle
+        label: Nombre del sitio
+        type: string
+        required: true
+
+      - name: levels
+        label: Niveles y enlaces
+        type: object
+        list: true
+
+        fields:
+
+          - name: enabled
+            label: Nivel activo
+            type: boolean
+            default: true
+
+          - name: title
+            label: Título que se desbloquea
+            type: string
+            required: true
+
+          - name: url
+            label: Enlace
+            type: string
+            required: true
+
+          - name: game
+            label: Minijuego
+            type: select
+            required: true
+            default: random
+
+            options:
+              values:
+                - value: random
+                  label: Aleatorio
+
+                - value: catch
+                  label: Atrapa la dona
+
+                - value: memory
+                  label: Memoria
+
+                - value: reaction
+                  label: Reflejos
+
+                - value: tap
+                  label: No pares
+
+                - value: sequence
+                  label: Secuencia
+
+          - name: difficulty
+            label: Dificultad
+            type: select
+            required: true
+            default: normal
+
+            options:
+              values:
+                - value: easy
+                  label: Fácil
+
+                - value: normal
+                  label: Normal
+
+                - value: hard
+                  label: Difícil
