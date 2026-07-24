@@ -1,0 +1,19 @@
+{
+  "siteTitle": "Donas frías en la oscuridad",
+  "levels": [
+    {
+      "enabled": true,
+      "title": "Servidor de Discord",
+      "url": "https://discord.gg/TU-INVITACION",
+      "game": "catch",
+      "difficulty": "normal"
+    },
+    {
+      "enabled": true,
+      "title": "Hear Me Out",
+      "url": "https://example.com",
+      "game": "memory",
+      "difficulty": "normal"
+    }
+  ]
+}
