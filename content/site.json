@@ -4,16 +4,16 @@
     {
       "enabled": true,
       "title": "Servidor de Discord",
-      "url": "https://discord.gg/TU-INVITACION",
+      "url": "https://discord.gg/KW9ErMM3BK",
       "game": "catch",
       "difficulty": "normal"
     },
     {
       "enabled": true,
       "title": "Hear Me Out",
-      "url": "https://example.com",
+      "url": "https://raymavls.github.io/hmoc-donas/",
       "game": "memory",
-      "difficulty": "normal"
+      "difficulty": "hard"
     }
   ]
 }
